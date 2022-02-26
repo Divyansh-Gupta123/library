@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function laptop()
+        {
+            var a=["dell laptop","hp laptop","mi laptop","apple laptop"];
+          var d= a.map((item,index)=>{
+             opt=document.createElement("option");
+               opt.innerHTML=item;
+            v.add(opt);
+         c="js sappal sir//deepuimage/"+item+"jpg"
+            return c;
+
+            }
+            )
+            d.map((item)=>{
+                im.innerHTML+=`<span><img width="330" height="300" src='${item}'>${item}</span>`
+
+            })
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <select id="v"></select>
+    <input type="button" value="click here" onclick="laptop()">
+    <div id="im"></div>
+    
+</body>
+</html>

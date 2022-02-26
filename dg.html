@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#contaner{background-color: violet;
+    border:5px solid red;
+    display: flex;
+    
+        
+    }
+    #time{color:brown;
+         font-weight: bold;
+         font-size: 40px;
+    }
+</style>
+<body>
+    <div id=contaner>
+        <h1> current time=</h1>
+        <span id="time"></span>
+     </div>
+     
+    
+</body>
+<script>
+   let dg=new Date();
+   console.log(dg); 
+   setInterval(updateTime,1000);
+
+   function updateTime()
+   {
+       time.innerHTML=new Date();
+   }
+       
+     </script>  
+    </html>

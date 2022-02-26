@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     //create to password with help to alert confirm andd prompt
+     //------------------------------------------------------------------
+     /*function abc(){
+        confirm("this is divyuansh gupta website");
+         if(abc)
+         {alert("thanks");
+          var b=prompt("enter the password");
+             if(b=="deepu123")
+             {
+                document.write("<h1>hii thi is divyansh page and my best friend name is sumit sahu</h1>"); 
+             }
+             else{
+                 alert("please try again");
+             }
+         }
+     }
+        
+     abc();
+    */ 
+
+    // global and local variable with help to for loop
+    //----------------------------------------------------
+    /*var a=90;  //this is global variable
+    for(var i=0;i<=4;i++)
+    { var a=50;  //this is local variable
+    document.write("a="+a+"<br>");
+    }
+    */
+
+    // array of java script
+    //--------------------------------------------------
+
+  //  var a=[10 ,20 ,30 ,40, 50];
+    // document.write("the array="+a);
+     
+   /* var a=new array( );
+    for(var i=0;i<=5;i++)
+    {
+      var a[i]=prompt("enter the array=");
+    }
+    document.write("the araray="+a[i]);
+    */
+
+    //multidimensional array
+    //----------------------------------------------------------
+    
+ /*   var a=[["harry",18,"male",'bsc'],
+          ["raman",19,"male" ,'bca'],
+          ["simran",20,"femail","btech"],
+          ['sumit',22,"male","cs"]
+        ];
+        for( var i=0;i<=3;i++)
+        {
+            for(var n=0;n<=3;n++)
+            {
+              document.write(a[i][n]+" ");
+            }
+            document.write("<br>");
+        }
+    */ 
+   
+   //objects of java script
+ // ---------------------------------------
+ /* var a={
+       name:"aman", 
+       number:524354643,
+       course:"bsc",
+       age:22
+  };
+
+  document.write(a.name+"<br>");
+  document.write(a.number);
+
+  for(var i in a)
+  {
+      document.write(i+":"+a[i]+"<br>");
+  }
+*/
+ // object with ARRAY
+ //-----------------------------------------
+ /*  
+var a=[
+      {name:"aman", age=20},
+      {name:"raman", age=30},
+      {name:"saman", age=40},
+      {name:"maman", age=50},
+      {name:"naman", age=60}      
+];
+document.write(a[3].name);
+for(var i=0;i<a.length;i++)
+{
+document.write(a[i].name+" "+a[i].age+"<br>");
+}
+*/
+
+
+//date topic
+//==========================
+/* var a= new Date();
+ document.write(a+"<br>"); 
+
+ document.write(a.toDateString()+"<br>");
+ document.write(a.getFullYear()+"<br>");
+ document.write(a.getMonth()+"<br>");
+ document.write(a.getTime()+"<br>");
+ document.write(a.getHours()+"<br>");
+ document.write(a.getSeconds()+"<br>");
+
+ var b=new Date();
+ b.setDate(22)
+ document.write(b.toDateString());
+ document.write(b.getFullYear(2022)+"<br>");
+ document.write(b.setMonth(2)+"<br>");
+ document.write(b.setTime(12,11)+"<br>");
+ document.write(b.setHours(11)+"<br>");
+ document.write(b.setSeconds(33)+"<br>");
+*/
+//mathemathics functions
+//=================================
+/*var a= Math.pow(2,3);
+document.write(a+"<br>");
+
+var b= Math.ceil(5.3);
+document.write(b+"<br>");
+
+var c= Math.trunc(2.3);
+document.write(c+"<br>");
+
+var d= Math.max(2,3);
+document.write(d+"<br>");
+
+var e= Math.min(2,3);
+document.write(e+"<br>");
+
+var f= Math.sqrt(4);
+document.write(f+"<br>");
+
+var g= Math.cbrt(125);
+document.write(g+"<br>");
+
+var h= Math.random();
+document.write(h+"<br>");
+
+var c= Math.round(2.40)
+document.write(c+"<br>");
+
+var c= Math.floor(2.3)
+document.write(c+"<br>");
+
+*/
+
+//=>Number methods
+//=========================================
+/*
+var a="90";
+var num=Number(a);
+document.write(num+"<br>");
+
+var a="95.99";
+var num=parseInt(a);
+document.write(num+"<br>");
+
+var a="95.97";
+var num=parseFloat(a);
+document.write(num+"<br>");
+
+var a="95.99";
+var num=isFinite(a);
+document.write(num+"<br>");
+*/
+
+//=>String methods(functions)
+//======================================================
+/*
+var str="this is divyansh  website";
+var d="coding style";
+
+var a=str.length;
+document.write(a+"<br>");
+
+var a=str.concat(d)
+document.write(a+"<br>");
+
+var a=str.includes("divyansh");
+document.write(a+"<br>");
+
+var a=str.indexOf("divyansh");
+document.write(a+"<br>");
+
+var a=str.toLocaleLowerCase();
+document.write(a+"<br>");
+
+var a=str.toUpperCase();
+document.write(a+"<br>");
+
+var a=str.search("website");
+document.write(a+"<br>");
+
+var a=str.replace("divyansh","sumit");
+document.write(a+"<br>");
+
+var a=str.trim();
+document.write(a+"<br>");
+
+var a=str.substring(3,13);
+document.write(a+"<br>");
+
+var a=str.substr(2,5);
+document.write(a+"<br>");
+
+var a=str.charAt(5);
+document.write(a+"<br>");
+
+var a=str.slice(3,13);
+document.write(a+"<br>");
+
+var a=str.repeat(3);
+document.write(a+"<br>");
+
+var a=str.charCodeAt(1);
+document.write(a+"<br>");
+
+var a=str.toString();
+document.write(a+"<br>");
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+
+</html>

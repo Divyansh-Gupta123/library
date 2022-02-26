@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a=["samsung.jpg","nokia.jpg","mi.jpg"];
+        function choose()
+        {
+        var b=a.map((item,index)=>{
+            var opt=document.createElement("option");
+            opt.text=item;
+            v.add(opt);
+            var c=item+".jpg";
+            return c;
+            })
+            b.map((item)=>{
+                im.innerHTML=`<div><img width="300" heigth="300" src='${item}'>${item}</div>`
+            })
+
+        }
+
+    </script>
+</head>
+<body>
+    <select id="v"></select>
+    <input type="button" value="click here"  onclick="choose()">
+    <div id="im"></div>
+    
+</body>
+</html>

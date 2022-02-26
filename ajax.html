@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax</title>
+    <script>
+        function change()
+        {
+            var xttps=new XMLHttpRequest();
+            xttps.onreadystatechange=function(){
+                if(this.readyState==4 && this.status==200)
+                {
+                    document.getElementById("demo").innerHTml=this.responseText;
+
+                }
+            };
+            xttps.open('Get',"raman.html",true);
+            xttps.send();
+        }
+    </script>
+</head>
+<body>
+    <h1 id="demo">"this is divyansh gupta page"</h1>
+    <input type="button" value="clickhere" onclick="change()" >
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>jsobjecct</h1>
+    
+</body>
+<script>
+    let jsonOBJ={
+        name:"aman",
+        class:"12",
+        naman:"lucky"
+    }
+    console.log(jsonOBJ);
+    let jsonstr=JSON.stringify(jsonOBJ);
+    console.log(jsonstr);
+
+    jsonstr=jsonstr.replace('aman','larry');
+    console.log(jsonstr);
+
+    
+    newjsonOBJ=JSON.parse(jsonstr);
+    console.log(newjsonOBJ);
+
+</script>
+</html>

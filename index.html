@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divyansh project</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        
+        }
+
+
+        .div1 {
+            background-image: url('https://bpmittripura.com/uploads/gallery/media/magdalene_college_library.jpg');
+        }
+
+
+        .div2 {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #ffffff);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100%;
+            width: 100%;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+
+        #mar {
+            height: 50px;
+            background-color: rgb(201, 172, 42);
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        #nav {
+            overflow: none;
+            border: 4px solid blueviolet;
+            background-color: black;
+            height: 70px;
+            border-radius: 20px;
+        }
+
+        .item {
+            display: inline-block;
+            padding: 23px;
+            margin: 24px;
+            border: 5px solid blueviolet;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 35px;
+            box-shadow: 14px 12px blueviolet;
+        }
+
+        #nav li:hover {
+            background-color: rgb(18, 209, 120);
+
+        }
+
+        #lab {
+            color: black;
+            font-size: 20px;
+            float: right;
+            margin: 50px;
+            height: 35px;
+            border-radius: 15px;
+
+
+        }
+
+        .container {
+            border: 4px solid rgb(7, 231, 19);
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        #deepu {
+            color: rgb(27, 218, 43);
+            background-color: black;
+            border: 2px solid white;
+        }
+
+        #fea {
+            display: inline block;
+            color: black;
+            border-radius: 20px;
+            background-color: aliceblue;
+            border: 3px solid black;
+            margin: auto;
+            text-align: center;
+            height: 70px;
+        }
+
+        .container h1 {
+            color: rgb(24, 255, 74);
+            text-align: center;
+        }
+
+        #contaner {
+
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+
+        }
+
+        #ram {
+            color: white;
+            font-size: 50px;
+            background-color: rgb(0, 0, 0);
+            border: 3px solid rgb(236, 4, 4);
+            margin: 20px;
+
+        }
+
+        #ram:hover {
+            background-color: rgb(164, 164, 201);
+            transform: rotate(350deg);
+            transform: scale(2);
+            transform: skew(30deg);
+        }
+
+        #deep {
+            height: 400px;
+        }
+
+        #img {
+            height: 400px;
+            width: 900px;
+            animation-name: divyansh;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes divyansh {
+            from {
+                width: 700px;
+            }
+
+            to {
+                width: 1200px;
+            }
+
+        }
+
+        #gun {
+            display: flex;
+            justify-content: center;
+        }
+
+        #date {
+            background-color: rgb(0, 0, 0);
+            border: 5px solid rgb(255, 255, 255);
+            display: flex;
+            height: 50px;
+
+
+        }
+
+        #time {
+            color: rgb(255, 253, 253);
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #block {
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            font-weight: bolder;
+            background-color: #5ab977;
+        }
+
+        #form {
+            display: inline-block;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(136, 133, 133);
+        }
+
+        #video {
+            background-color: black;
+            border: 3px solid red;
+
+        }
+
+        #goofy {
+            display: inline-block;
+            font-size: xx-large;
+            font-weight: bold;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <marquee id="mar">WWW.divyansh library (7389785559)</marquee>
+        <div>
+            <nav id="nav">
+                <ui>
+                    <li class="item">HOME</li>
+                    <li class="item">ID</li>
+                    <li class="item">DOWNLOAD</li>
+                    <li class="item">setting</li>
+                    <input id="lab" type="text" placeholder="search..."><label id="raman" id="lab">search:</label>
+
+
+                </ui>
+            </nav>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="date">
+            <h1>aman </h1>
+            <span id="time"></span>
+        </div>
+
+        <div class="container">
+            <h1 id="deepu">Join the best library of dabra</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div id="video">
+
+        <embed width="1500" height="600px"
+            src="https://media.istockphoto.com/videos/stedicam-shot-camera-moves-forward-along-shelves-filled-with-paper-video-id1207745492">
+        <embed src="./stay.mp3.mp3">
+    </div>
+    <div id="goofy">
+        <h1>this is goofy library</h1>
+        <a href="page.html">go to goofy page</a>
+    </div>
+    <div class="div2">
+        <div>
+            <h1 ID="fea"><u>THERE ARE MANY FEATURES OF THIS LIBRARY</u></h1>
+        </div>
+
+        <div>
+            <div id="contaner">
+                <div id="ram"> all subject books are AVAILABLE"<img id="deep"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgdd_500lEj7SA9s4t54d3TshC47MBvbxgA&usqp=CAU" />
+                </div>
+                <div id="ram">proper sitting<img id="deep"
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/72/NYC_-_New_York_City_Library_-_1723.jpg" />
+                </div>
+                <div id="ram">full ligting background <img id="deep"
+                        src="https://www.readingkingdom.com/blog/wp-content/uploads/2019/06/halpern_1-041819.jpg" />
+                </div>
+                <div id="ram">good silence<img id="deep"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFtdK3OlevsWI3sxRZVIMvkVEqdqYAsxUFSF45NN-STnywI5KII6o3fqjA1SXXcz37ik&usqp=CAU" />
+                </div>
+                <div id="ram"> big library<img id="deep"
+                        src="https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzQ3ZGZkNTcxZmFhNjY1MGE3ZF8yODc0MzQxMDcwXzNlMzA1MmMwOTJfYi5qcGciXSxbInAiLCJjb252ZXJ0IiwiIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDgxIC1hdXRvLW9yaWVudCJdLFsicCIsInRodW1iIiwiNzgweDUyMCMiXV0" />
+                </div>
+                <div id="ram">very cooling atmosphere<img id="deep"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2iRtYqzuHm8JQQZXAnCrIqtv_yFvw0yg68gSNxJBj4BOepbkod6NHNd6vinmozCt9Ec&usqp=CAU" />
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="form">
+                <h1>you would like to join this library so click this link</h1>
+                <a href='sappal.html'>go to form link</a>
+            </div>
+            <br>
+            <br>
+
+        </div>
+
+        <div id="gun">
+            <img id="img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLhMuw2AYbsMiNu_ZxZhILVRayXbgSIhRj4g&usqp=CAU" />
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div id=block>
+            <center>
+
+                <h1>WWW.Divyansh library</h1>
+                <h2>Dedar colony gwalior(738996455)</h2>
+                <h3>mp (india)</h3>
+            </center>
+        </div>
+        <marquee id="mar">WWW.divyansh library(738996455)..</marquee>
+    </div>
+
+</body>
+<script>
+    let dg = new Date();
+    console.log(dg);
+    setInterval(updateTime, 1000);
+
+    function updateTime() {
+        time.innerHTML = new Date();
+    }
+
+</script>
+
+</html>

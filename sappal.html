@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #aman{
+            border:3px solid red;
+             justify-content:center;
+             border-radius: 22px;
+             
+        }
+        #aman:hover{
+            border-color: rgb(209, 212, 11);
+        }
+        #d:hover{background-color: rgb(56, 211, 138);;
+            color:black;
+
+        }
+        #b:hover{ background-color: red;
+            color:black;
+
+        }
+        #legend{color:black;
+            background-color: aliceblue;
+            font-size:15px;
+            border:2px solid red;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #caption{
+            background-color: silver;
+            color:black;
+            border:2px solid rgb(255, 0, 0);
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body text="white"  bgcolor="blueviolet" align="center">
+    <form action="abc.html " method="get" align="center">
+        <fieldset >
+        <legend id="legend"><b><u>this divyansh form</u></b></legend>
+   <table id="aman"  border="4" cellspacing="23" cellpadding="" bgcolor="black">
+       <caption id="caption">personal details</caption>
+       <tr id="d">
+           <td>name</td>
+           <td><input type="text" placeholder="text"/></td>
+       </tr>
+       <tr id="d">
+        <td>id</td>
+        <td><input type="text" placeholder="id"/></td>
+    </tr>
+    <tr id="d">
+        <td>password:</td>
+        <td><input type="text" placeholder="password"/></td>
+    </tr>
+    <tr id="d">
+        <td>date</td>
+        <td><input type="date" placeholder="date"/></td>
+    </tr>
+    <tr id="d">
+        <td>time</td>
+        <td><input type="text" placeholder="time"/></td>
+    </tr>
+    <tr id="d">
+        <td>gender</td>
+        <td><label>male</label><input type="radio"name="m" id="m"/><label>female</label><input type="radio"name="m" id="m"/></td>
+    </tr>
+    <tr id="d">
+        <td>cast</td>
+        <td> <label>genral</label><input type="checkbox" name="ca" id="ca" />
+            <label>obc</label><input type="checkbox" name="ca" id="ca" />
+            <label>st/sc</label> <input type="checkbox" name="ca" id="ca" />
+        
+        </td>
+        
+    </tr>
+    <tr id="d">
+        <td>feedback</td>
+        <td>
+            <textarea rows="4" cols="4" ></textarea>
+        </td>
+    </tr>
+    <tr id="d">
+        <td>state:</td>
+        <td>
+            <select>
+                <option>madhya pradesh</option>
+                <option>uttra pradesh</option>
+                <option>himachal pradesh</option>
+                <option>gujrat</option>
+            </select>
+        </td>
+    </tr>
+         <br>
+         <br>
+
+    <tr id="d">
+        <td>image</td>
+        <td><input type="file" /></td>
+    </tr>
+    <tr id="d">
+        <td>age</td>
+        <td><input min="18" max="100" type="number" /></td>
+    </tr>
+    <tr id="d">
+    <td> click   </td>
+    <td id="b"><input type="submit"><td>
+        <td id="b"><input type="reset"><td></td>
+
+    </tr>
+
+
+   </table>
+</fieldset>
+    
+    
+ 
+
+    
+    </form>
+    
+</body>
+</html>
